@@ -1,0 +1,61 @@
+p {
+  font-size: 1.4rem;
+}
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+.main {
+  background-color: rgba(0, 0, 0, 0.35);
+}
+.App {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+}
+
+.main::before {
+  content: "";
+  background: url("./assets/—Pngtree—cloudy weather natural scenery_1347956.JPG")
+    no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.app-coordinates {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+input {
+  box-sizing: border-box;
+  padding: 0.8rem;
+  margin: auto 1rem;
+  border-radius: 15px;
+  width: 100%;
+  border: none;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
